@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+*,  
+*:before,
+*:after{
+box-sizing: inherit;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container__fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
